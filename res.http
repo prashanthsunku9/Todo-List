@@ -1,0 +1,15 @@
+POST http://localhost:4000/todo/post
+Content-Type: application/json
+
+{
+    "id":"0",
+    "todo":"singing"
+}
+
+###
+
+GET http://localhost:4000/todo/get
+
+###
+
+GET http://localhost:4000/todo/
